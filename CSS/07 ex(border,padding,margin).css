@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+  width:80%;
+  margin:auto;
+}
+header{
+    margin-top:10px;
+    padding:0.5px ;
+    background-color: rgb(134, 164, 190);
+    text-align: center;
+}
+.article1,.article2{
+    border: 2px solid black;
+    padding:5px;
+    margin:10px 0px;
+}

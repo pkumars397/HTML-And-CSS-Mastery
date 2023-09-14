@@ -1,0 +1,14 @@
+/* specificity order */
+/* ! inline style>>id>>class>>element*/
+
+div#container ul.my-ul li{
+    color:rgb(34, 167, 167);
+    background-color: aquamarine;
+}
+/* Specificity 0113 */
+
+div#container ul.my-ul li.fav{
+    color:rgb(130, 33, 40);
+    background-color: rgb(139, 26, 167);
+}
+/* Specificity 0133 More Speficity*/
