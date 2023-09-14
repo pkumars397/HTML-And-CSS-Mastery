@@ -1,0 +1,11 @@
+body{
+    background: #9e6f6f;
+}
+/*? We define utility class or id to do a work repeatidly by using that class or id,basic style rules for any html element,reusable.Inside one utility only one property should be there.  */
+.primary{
+    color:aqua;
+}
+
+.secondary{
+    color:aquamarine
+}

@@ -1,0 +1,44 @@
+/* * universal selector */
+*{
+    height: auto ;
+}
+/* ! type Selectors (Select by Tag Name) */
+header{
+    background-color: aquamarine;
+}
+/* *will select class main-section of section */
+section.main-section{
+   background-color: antiquewhite;
+}
+/* ? Class selector and id selector we already know this two */
+
+/* !Descended Selector */
+
+article h2{
+    color:chocolate
+}
+
+/* ! Child Selector */
+ul>li{
+    background-color: rgb(99, 99, 143);
+}
+section.main-section>h2{
+    background-color:darkblue ;
+}
+/* ?Adjacent Sibling Select */
+
+h2+p{
+  color: chartreuse;
+}
+
+/* !Attribute Selector */
+
+input[type="text"]{
+    color: cornflowerblue;
+}
+a[href="./01HTML.html"]{
+    color:chocolate
+}
+a[href*="google"]{
+    background-color: darkgoldenrod;
+}

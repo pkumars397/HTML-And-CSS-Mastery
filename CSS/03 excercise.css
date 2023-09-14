@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-color: antiquewhite;
+}
+.main-heading{
+    color:rgb(51, 188, 143)
+}
+#part{
+    background:aqua
+}
+#p{
+    background-color: blue;
+}
