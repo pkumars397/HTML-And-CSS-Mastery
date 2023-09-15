@@ -1,0 +1,38 @@
+h1 {
+    text-decoration: overline dotted red;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+
+}
+
+p {
+    line-height: 20px;
+}
+
+/* ? Pseudo selector >> link//visited//hover//active */
+a{
+    color:none;
+    text-decoration: none;
+}
+
+/* a:link {
+    color: rgb(212, 12, 139);
+} */
+
+a:visited{
+    color:rgb(193, 184, 18)
+}a:hover{
+    color:green
+}
+a:active{
+    color: black;
+    background-color: aqua;
+}
+input:focus{
+    outline: none;
+    padding: 5px;
+    border:1px solid darkblue;
+    border-radius: 5px;
+}
+
