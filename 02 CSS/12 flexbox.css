@@ -1,6 +1,10 @@
 .box-wrapper{
     border: 2px solid red;
     display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
 }
 
 .box{
