@@ -1,0 +1,16 @@
+h1::before{
+    content:"i am pseudo element before ";
+    color:lightblue;
+}
+
+.div1 .heading::after{
+    content: "I am inline but forcefully i am going block";
+    color:aquamarine;
+    display: block;
+}
+.div1 p::after{
+    content: "";
+    border: 2px solid red;
+    display: block;
+    width: 50%;
+}
