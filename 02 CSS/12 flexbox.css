@@ -1,0 +1,21 @@
+.box-wrapper{
+    border: 2px solid red;
+    display: flex;
+}
+
+.box{
+    border:2px solid lightblue;
+}
+
+.box1{
+    background-color: #813232;
+}
+.box2{
+    background-color: #2926cc;
+}
+.box3{
+    background-color: #1b8632;
+}
+.box4{
+    background-color: #929016;
+}
