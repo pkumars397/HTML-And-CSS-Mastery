@@ -1,0 +1,17 @@
+.box{
+    width: 200px;
+    height:200px;
+    background-color: lightcoral;
+    /* transition: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+    /* transition: background 1s ease-in,width 2s ease-in-out; */
+    transition:all 1s ease-in;
+}
+
+/* we can set transition on hover state ,focus state etc */
+.box:hover{
+    background-color: aquamarine;
+    width:300px;
+    height: 250px;
+}
